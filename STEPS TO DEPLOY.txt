@@ -1,0 +1,18 @@
+STEPS TO DEPLOY
+- Find Repo on GitHub
+- Create a branch off of Master
+- Clone branch to your desktop
+- Develop locally and commit often
+- When "finished" deploy to dev to check changes
+- When it looks good sync the branch and notify Interactive Project Manager/Colin
+- Code will be reviewed and any issues with Master addressed
+- Once routed and all changes have been made to this branch, merge with Master
+- Push files via FTP to production server
+- Save current version to Interactive Jobs
+
+OPEN QUESTIONS
+- How can we combine the pushing of code to Master with actual deployment to prod server? I know it's easily done via command line. But it looks like using the GUI we need an additional layer of service/cron job to do this. See here: http://css-tricks.com/deployment/
+
+- Do we really want to make devs save to our Interactive Server after each push? 
+
+- Is it right to use the dev server as a place to check the changes on a branch? Or should this be done locally? Not sure if all devs have what they need to run IIS or PHP locally. I know it's not hard, but just sayin'.
